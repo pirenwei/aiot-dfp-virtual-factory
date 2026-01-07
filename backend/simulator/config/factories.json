@@ -1,0 +1,20 @@
+{
+  "factories": [
+    {
+      "factoryId": "F001",
+      "name": "Virtual Plant A",
+      "lines": [
+        { "lineId": "F001-L01", "type": "mixing" },
+        { "lineId": "F001-L02", "type": "packing" }
+      ]
+    },
+    {
+      "factoryId": "F002",
+      "name": "Virtual Plant B",
+      "lines": [
+        { "lineId": "F002-L01", "type": "assembly" },
+        { "lineId": "F002-L02", "type": "testing" }
+      ]
+    }
+  ]
+}
